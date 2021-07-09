@@ -1,3 +1,4 @@
+print("Welcome to fizz buzz game! \n")
 range_1 = int(input("Please enter start number : \n"))
 range_2 = int(input("Please enter end number : \n "))
 for number in range(range_1,range_2 + 1) :
@@ -9,3 +10,4 @@ for number in range(range_1,range_2 + 1) :
     print("Buzz")
   else:
     print(number)
+print("Thanks for playing this game !")
